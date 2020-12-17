@@ -31,6 +31,7 @@ Através da aplicação, o usuário poderá relacionar dívidas com cadastros de
 
 <h2> Cadastro/Adição de Dívida </h2>
 <img src="/.github/AddDebt.PNG" />
+<img src="/.github/AddDebt.gif" />
 
 <h2> Edição/Alteração de Dívida </h2>
 <img src="/.github/UpdateDebt.PNG" />
