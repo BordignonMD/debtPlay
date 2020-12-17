@@ -1,0 +1,123 @@
+.register-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-container div.left {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darksalmon;
+}
+
+.register-container div.left h1 {
+    font-size: 2.5rem;
+    width: 90%;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.register-container div.left p{
+    width: 90%;
+    padding: 0.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.register-container section.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container section.form h1 {
+    font-size: 3rem;
+    color: darksalmon;
+}
+
+.register-container section.form form {
+    width: 100%;
+    max-width: 60rem;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container section.form form div {
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.register-container section.form form input {
+    background: #fff;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border: 0rem;
+    color: #000;
+}
+
+.icon-register {
+    height: 3rem;
+    width: 3rem;
+    background: #fff;
+    padding-left: 1rem;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+
+.register-container section.form form button {
+    width: 100%;
+    max-width: 13rem;
+    height: auto;
+    background: darksalmon;
+    border: 0.1rem solid;
+    border-radius: 1.5rem;
+    border-color: #fff;
+    color: #fff;
+    font-weight: 700;
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 2rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: filter 0.2s;
+}
+
+.register-container section.form form button:hover {
+    border-color: darksalmon;
+    background-color: #fff;
+    color: darksalmon
+}
+
+@media (max-width: 360px){
+    .register-container div.left h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 750px){
+    html {
+        font-size: 50%;
+    }
+}
+

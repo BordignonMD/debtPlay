@@ -1,0 +1,72 @@
+.listDebt-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 3rem;
+    margin: 3.2rem auto;
+}
+  
+.listDebt-container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listDebt-container header h1 {
+    font-size: 1.8rem;
+    color: darksalmon;
+}
+
+.listDebt-container main h1 {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+  
+.listDebt-container main ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2.4rem;
+    list-style: none;
+}
+  
+.listDebt-container main ul li {
+    background: #fff;
+    display: flex;
+    padding: 2.4rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+  
+.listDebt-container main ul li:hover {
+    opacity: 0.6;
+}
+  
+.listDebt-container main ul li div.info {
+    width: 95%;
+}
+
+.listDebt-container main ul li div.buttons {
+    display: flex;
+    flex-direction: column;
+}
+  
+.link-button {
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem;
+}
+  
+.listDebt-container ul li strong {
+    display: block;
+    margin-bottom: 1.6rem;
+    color: #41414d;
+}
+  
+.listDebt-container ul li p + strong {
+    margin-top: 3.2rem;
+}
+  
+.listDebt-container ul li p {
+    color: #737380;
+    line-height: 2.1rem;
+    font-size: 1.6rem;
+}

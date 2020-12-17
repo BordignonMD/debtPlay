@@ -1,0 +1,101 @@
+.addDebt-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 3rem;
+    margin: 3.2rem auto;
+}
+
+.addDebt-container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addDebt-container header h1 {
+    font-size: 1.8rem;
+    color: darksalmon;
+}
+
+.addDebt-container section.form {
+    width: 100%;
+    background-color: darksalmon;
+    border-radius: 0.8rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addDebt-container section.form h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.addDebt-container section.form form {
+    width: 100%;
+    max-width: 98rem;
+    margin-top: 2rem;
+}
+
+.addDebt-container section.form form div.icon-input {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.addDebt-container section.form form label {
+    font-size: 1.8rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.addDebt-container section.form form input {
+    margin-bottom: 1rem;
+}
+
+.addDebt-container section.form form select {
+    margin-bottom: 1rem;
+}
+
+.addDebt-container section.form form textarea {
+    margin-bottom: 1rem;
+}
+
+.addDebt-container section.form form div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.icon-adddebt {
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding-left: 1rem;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.icon-textarea {
+    height: 6rem;
+    width: 3rem;
+    background: #fff;
+    padding-left: 1rem;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.addDebt-container section.form form div.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
